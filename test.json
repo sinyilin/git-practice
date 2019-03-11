@@ -1,20 +1,23 @@
 {
-	"name": "api a config",
+	"name": "OOOO API",
 	"items": [
-		{
+		{	
+			"title":"名稱",
 			"type": "text",
 			"id":"name",
-			"class": "aaaa"
+			"class": "form-control"
 		},
 		{
+			"title":"IP位置",
 			"type": "text",
 			"id":"ip",
-			"class": "aaaa"
+			"class": "form-control"
 		},
 		{
+			"title":"信箱",
 			"type": "text",
 			"id":"mail",
-			"class": "aaaa"
+			"class": "form-control"
 		}
 		
 	]
