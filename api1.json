@@ -25,6 +25,8 @@
 		{
 			"title":"下拉式選單",
 			"type": "select",
+			"id":"select",
+			"name":"select",
 			"option":[
 				{"text":"選項1" ,"value":"option1"},
 				{"text":"選項2" ,"value":"option2"}
