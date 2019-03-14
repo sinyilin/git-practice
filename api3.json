@@ -1,0 +1,27 @@
+﻿{
+	"name": "API 3",
+	"items": [
+		{	
+			"title":"名稱",
+			"type": "text",
+			"id":"name",
+			"name":"name",
+			"class": "form-control"
+		},
+		{
+			"title":"IP位置",
+			"type": "text",
+			"id":"ip",
+			"name":"ip",
+			"class": "form-control"
+		},
+		{
+			"title":"帳號",
+			"type": "text",
+			"id":"account",
+			"name":"account",
+			"class": "form-control"
+		}
+		
+	]
+}
