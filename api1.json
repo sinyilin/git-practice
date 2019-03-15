@@ -2,13 +2,6 @@
 	"name": "API 1",
 	"items": [
 		{
-			"title":"IP位置",
-			"type": "text",
-			"id":"ip",
-			"name":"ip",
-			"class": "form-control"
-		},
-		{
 			"title":"信箱",
 			"type": "text",
 			"id":"mail",
