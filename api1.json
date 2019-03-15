@@ -1,13 +1,6 @@
 {
 	"name": "API 1",
 	"items": [
-		{	
-			"title":"名稱",
-			"type": "text",
-			"id":"name",
-			"name":"name",
-			"class": "form-control"
-		},
 		{
 			"title":"IP位置",
 			"type": "text",
