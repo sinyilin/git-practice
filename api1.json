@@ -1,39 +1,92 @@
 {
-	"name": "API 1",
+	"name": "bindAccount",
 	"items": [
 		{
-			"title":"信箱",
+			"title":"SIT-IP位置",
 			"type": "text",
-			"id":"mail",
-			"name":"mail",
-			"class": "form-control"
-		},
-		{
-			"title":"下拉式選單",
-			"type": "select",
-			"id":"select",
-			"name":"select",
-			"option":[
-				{"text":"選項1" ,"value":"option1"},
-				{"text":"選項2" ,"value":"option2"}
-			
-			],
-			"class": "form-control"
-		
+			"id":"sit-ip"
 		},		
 		{
-			"title":"單選選項",
-			"type": "radio",
-			"id":"radio",
-			"name":"radio",
-			"option":[
-				{"text":"選項1" ,"value":"option1"},
-				{"text":"選項2" ,"value":"option2"}
+			"title":"UAT-IP位置",
+			"type": "text",
+			"id":"uat-ip"
+		},		
+		{
+			"title":"PRD-IP位置",
+			"type": "text",
+			"id":"prd-ip"
 			
-			],
-			"class": "form-control"
+		},
+		{
+			"title":"統一編號",
+			"type": "text",
+			"id":"merchan-id"
+		},
+		{
+			"title":"業者代碼",
+			"type": "text",
+			"id":"biller-id"
+		},
+		{
+			"title":"金融交易憑證請求檔",
+			"type": "file",
+			"id":"request-transaction-cert"
+		},
+		{
+			"title":"KeyId",
+			"type": "text",
+			"id":"key-id"
+		},
+		{
+			"title":"雙向SSL憑證",
+			"type": "title",
+			"id":"ssl-cert"
+		},
+		{
+			"title":"SIT P12",
+			"type": "file",
+			"id":"ssl-sit-p12"
+		},
+		{
+			"title":"SIT Cert",
+			"type": "file",
+			"id":"ssl-sit-cert"
+		},
+		{
+			"title":"SIT Key",
+			"type": "file",
+			"id":"ssl-sit-key"
+		},
 		
+		{
+			"title":"UAT P12",
+			"type": "file",
+			"id":"ssl-uat-p12"
+		},
+		{
+			"title":"UAT Cert",
+			"type": "file",
+			"id":"ssl-uat-cert"
+		},
+		{
+			"title":"UAT Key",
+			"type": "file",
+			"id":"ssl-uat-key"
+		},
+		{
+			"title":"PRD P12",
+			"type": "file",
+			"id":"ssl-prd-p12"
+		},
+		{
+			"title":"PRD Cert",
+			"type": "file",
+			"id":"ssl-prd-cert"
+		},
+		{
+			"title":"PRD Key",
+			"type": "file",
+			"id":"ssl-prd-key"
 		}
-		
 	]
 }
