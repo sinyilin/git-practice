@@ -9,5 +9,8 @@ https://www.regextester.com/22
 #https:// 或http://開頭 
 ^(https|http)+://[^\s]*
 
+# 英數與- 限制位數
+^[A-Za-z0-9+-]{0,36}$
+
 
 
